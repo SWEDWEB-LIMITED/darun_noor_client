@@ -1,4 +1,6 @@
 import LeftSideNav from "../Shared/LeftSideNav/LeftSideNav";
+import Banner from "../../components/Banner/Banner";
+import Welcome from "../../components/Welcome/Welcome";
 
 const Home = () => {
   return (
@@ -11,6 +13,8 @@ const Home = () => {
           {/* something is coming here */}
         </div>
       </div>
+      <Banner></Banner>
+      <Welcome></Welcome>
     </div>
   );
 };
