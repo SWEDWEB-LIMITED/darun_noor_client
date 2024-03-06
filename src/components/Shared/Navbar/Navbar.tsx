@@ -71,7 +71,7 @@ const Navbar = () => {
                 type="button"
                 className="flex items-center w-full text-white hover:text-[#FFA500] font-medium dark:text-gray-400 dark:hover:text-gray-500"
               >
-                Dropdown
+                Activity
                 <svg
                   className="ml-2 w-2.5 h-2.5 text-white"
                   width="16"
@@ -92,31 +92,30 @@ const Navbar = () => {
                 <div className="hs-dropdown relative [--strategy:static] md:[--strategy:absolute] [--adaptive:none]"></div>
                 <div className="py-2">
                   <NavLink
-                    to="/"
+                    to="/a"
                     className="flex items-center gap-x-3.5 px-3 rounded-md text-sm text-gray-800   focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700"
                   >
-                    dropdown-menu-item
+                    Kids 5-13 yrs
                   </NavLink>
                 </div>
                 <div className="py-2">
                   <NavLink
-                    to="/"
+                    to="/b"
                     className="flex items-center gap-x-3.5 px-3 rounded-md text-sm text-gray-800   focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700"
                   >
-                    dropdown-menu-item
+                    Muslim Girls 13+ yrs
+                  </NavLink>
+                </div>
+                <div className="py-2">
+                  <NavLink
+                    to="/c"
+                    className="flex items-center gap-x-3.5 px-3 rounded-md text-sm text-gray-800   focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700"
+                  >
+                    Youth 13+ yrs
                   </NavLink>
                 </div>
               </div>
             </div>
-            <NavLink to="/a" className="font-medium" aria-current="page">
-              Kids 5-13 yrs
-            </NavLink>
-            <NavLink to="/b" className="font-medium" aria-current="page">
-              Muslim Girls 13+ yrs
-            </NavLink>
-            <NavLink to="/c" className="font-medium" aria-current="page">
-              Youth 13+ yrs
-            </NavLink>
             {/* we can show users profile here for large devices */}
             <div className="hidden md:block">
               {/* if user exist here we can show their name and profile picture */}
