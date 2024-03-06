@@ -1,10 +1,26 @@
 nav a {
-  color: white !important;
+  color: rgb(0, 0, 0) !important;
   font-weight: 600;
 }
+
 nav a:hover {
   color: orange !important;
 }
+
 nav a.active {
   color: orange !important;
+  font-weight: 700;
+}
+
+nav .navDropDown .dropdownBtn {
+  color: black;
+  font-weight: 600;
+}
+
+nav .navDropDown .dropdownBtn:hover {
+  color: #ffa500;
+}
+
+nav .navDropDown .dropdownBtn:hover .bottomArrow {
+  color: #ffa500;
 }

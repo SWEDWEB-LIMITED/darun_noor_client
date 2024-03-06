@@ -3,18 +3,18 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <header className="relative flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full bg-[#1F2119] py-5">
+    <header className="relative flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full bg-white pb-5 lg:pb-0">
       <nav
         className="container w-full mx-auto px-4 md:flex md:items-center md:justify-between"
         aria-label="Global"
       >
         <div className="flex items-center justify-between">
-          <Link to="/" className="flex-shrink-0">
-            {/* <img
-              className="w-[50px] md:w-[50px] h-[50px] flex-shrink-0 object-cover rounded-full"
+          <Link to="/" className="flex items-center flex-shrink-0">
+            <img
+              className="w-[100px] flex-shrink-0 object-cover rounded-full"
               src="https://i.ibb.co/SyQLnML/daar-un-noor-logo.jpg"
               alt="website logo"
-            /> */}
+            />
             <h3 className="font-bold text-2xl">Daar-Un-Noor</h3>
           </Link>
           <div className="flex justify-end">
@@ -65,15 +65,15 @@ const Navbar = () => {
               Home
             </NavLink>
             {/* dropdown */}
-            <div className="hs-dropdown [--strategy:static] md:[--strategy:fixed] [--adaptive:none]">
+            <div className="navDropDown hs-dropdown [--strategy:static] md:[--strategy:fixed] [--adaptive:none]">
               <button
                 id="hs-mega-menu-basic-dr"
                 type="button"
-                className="flex items-center w-full text-white hover:text-[#FFA500] font-medium dark:text-gray-400 dark:hover:text-gray-500"
+                className="flex items-center w-full dropdownBtn"
               >
                 Activity
                 <svg
-                  className="ml-2 w-2.5 h-2.5 text-white"
+                  className="ml-2 w-2.5 h-2.5 text-black bottomArrow"
                   width="16"
                   height="16"
                   viewBox="0 0 16 16"
@@ -88,7 +88,7 @@ const Navbar = () => {
                   ></path>
                 </svg>
               </button>
-              <div className="hs-dropdown-menu bg-[#1F2119] transition-[opacity,margin] duration-[0.1ms] md:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 md:w-48 z-10 md:shadow-md rounded-lg p-2 before:absolute top-full before:-top-5 before:left-0 before:w-full before:h-5 hidden">
+              <div className="hs-dropdown-menu bg-white transition-[opacity,margin] duration-[0.1ms] md:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 md:w-48 z-10 md:shadow-md rounded-lg p-2 before:absolute top-full before:-top-5 before:left-0 before:w-full before:h-5 hidden">
                 <div className="hs-dropdown relative [--strategy:static] md:[--strategy:absolute] [--adaptive:none]"></div>
                 <div className="py-2">
                   <NavLink
