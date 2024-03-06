@@ -108,6 +108,15 @@ const Navbar = () => {
                 </div>
               </div>
             </div>
+            <NavLink to="/a" className="font-medium" aria-current="page">
+              Kids 5-13 yrs
+            </NavLink>
+            <NavLink to="/b" className="font-medium" aria-current="page">
+              Muslim Girls 13+ yrs
+            </NavLink>
+            <NavLink to="/c" className="font-medium" aria-current="page">
+              Youth 13+ yrs
+            </NavLink>
             {/* we can show users profile here for large devices */}
             <div className="hidden md:block">
               {/* if user exist here we can show their name and profile picture */}
