@@ -1,6 +1,8 @@
 import LeftSideNav from "../Shared/LeftSideNav/LeftSideNav";
 import Banner from "../../components/Banner/Banner";
 import Welcome from "../../components/Welcome/Welcome";
+import WorkStrands from "./WorkStrands/WorkStrands";
+import LocationGoogleMap from "./GoogleLocation/GoogleLocation";
 
 const Home = () => {
   return (
@@ -15,6 +17,8 @@ const Home = () => {
       </div>
       <Banner></Banner>
       <Welcome></Welcome>
+      <WorkStrands/>
+      <LocationGoogleMap/>
     </div>
   );
 };
