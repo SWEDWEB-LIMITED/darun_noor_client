@@ -1,39 +1,55 @@
-import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+
+// import required modules
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination } from "swiper/modules";
+
 import slider1 from "../../assets/slider1.webp";
 import slider2 from "../../assets/slider2.webp";
 import slider3 from "../../assets/slider3.webp";
 
 const Banner = () => {
   return (
-    <Carousel
-      className="text-center bg-teal-900"
-      autoPlay={true}
-      infiniteLoop={true}
-      interval={1000}
-    >
-      <div>
-        <img
-          src={slider1}
-          className="max-h-[500px] object-center object-contain"
-          alt="Banner 1"
-        />
-      </div>
-      <div>
-        <img
-          src={slider2}
-          className="max-h-[500px] object-center object-contain"
-          alt="Banner 2"
-        />
-      </div>
-      <div>
-        <img
-          src={slider3}
-          className="max-h-[500px] object-center object-contain"
-          alt="Banner 3"
-        />
-      </div>
-    </Carousel>
+    <>
+      <Swiper
+        spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay, Pagination]}
+        className="mySwiper"
+      >
+        <SwiperSlide>
+          <img
+            className="w-full max-h-[600px] object-cover"
+            src={slider1}
+            alt=""
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            className="w-full max-h-[600px] object-cover"
+            src={slider2}
+            alt=""
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            className="w-full max-h-[600px] object-cover"
+            src={slider3}
+            alt=""
+          />
+        </SwiperSlide>
+      </Swiper>
+    </>
   );
 };
 
