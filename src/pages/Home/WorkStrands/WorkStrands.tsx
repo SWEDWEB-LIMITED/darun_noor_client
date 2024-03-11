@@ -25,7 +25,7 @@ export default function WorkStrands() {
 
   return (
     <>
-      <div className="py-[5rem] bg-teal-900 text-white">
+      <div className="py-[5rem]  text-white">
         <p className="text-center text-3xl font-bold ">Our Work Strands</p>
 
         <div className="flex justify-center items-center gap-[2rem] flex-row flex-wrap p-[3rem]">

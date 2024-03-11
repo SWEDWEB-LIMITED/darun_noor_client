@@ -1,9 +1,9 @@
 import { Link, NavLink } from "react-router-dom";
 import "./Navbar.css";
-
+import logo from "../../../assets/daar-un-noor-logo.jpg";
 const Navbar = () => {
   return (
-    <header className="relative flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full bg-white pb-5 lg:pb-0">
+    <header className="relative flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full text-white pb-5 lg:pb-0">
       <nav
         className="container w-full mx-auto px-4 md:flex md:items-center md:justify-between"
         aria-label="Global"
@@ -12,8 +12,8 @@ const Navbar = () => {
           <Link to="/" className="flex items-center flex-shrink-0">
             <img
               className="w-[100px] flex-shrink-0 object-cover rounded-full"
-              src="https://i.ibb.co/SyQLnML/daar-un-noor-logo.jpg"
-              alt="website logo"
+              src={logo}
+              alt="Daar-Un-Noor"
             />
             <h3 className="font-bold text-2xl">Daar-Un-Noor</h3>
           </Link>
@@ -116,6 +116,8 @@ const Navbar = () => {
                 </div>
               </div>
             </div>
+            <NavLink to="/learning-center">Learning Center</NavLink>
+            <NavLink to="about-us">About Us</NavLink>
             {/* we can show users profile here for large devices */}
             <div className="hidden md:block">
               {/* if user exist here we can show their name and profile picture */}
