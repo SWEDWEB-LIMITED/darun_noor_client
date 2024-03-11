@@ -10,7 +10,7 @@ const Footer = () => {
           <a
             href="https://www.facebook.com/daarunnoor"
             target="_blank"
-            className="me-6 [&>svg]:h-4 [&>svg]:w-4"
+            className="me-6 [&>svg]:h-4 [&>svg]:w-4 bg-blue-500"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -144,7 +144,7 @@ const Footer = () => {
                   />
                 </svg>
               </span>
-              0765976547 <br /> 0722530681 <br /> 0737632345
+              072 2530681 <br /> 073 9167979
             </p>
           </div>
         </div>
