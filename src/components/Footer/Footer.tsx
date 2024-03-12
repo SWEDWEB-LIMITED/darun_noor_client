@@ -62,7 +62,7 @@ const Footer = () => {
 
       {/* <!-- Main container div: holds the entire content of the footer, including four sections (TW Elements, Products, Useful links, and Contact), with responsive styling and appropriate padding/margins. --> */}
       <div className="mx-6 py-10 text-center md:text-left">
-        <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid-1 grid gap-8 md:grid-cols-2 ">
           {/* <!-- TW Elements section --> */}
           <div className="">
             <h6 className="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start">
@@ -78,26 +78,26 @@ const Footer = () => {
             <p>A nonprofit Islamic organization for the Swedish community.</p>
           </div>
           {/* <!-- Products section --> */}
-          <div>
+          {/* <div>
             <p className="mb-4">
               <a href="#!">Company</a>
             </p>
             <p className="mb-4">
-              <a href="#!">About us</a>
+              <a href="/about-us">About us</a>
             </p>
             <p className="mb-4">
               <a href="#!">Mission</a>
             </p>
-          </div>
+          </div> */}
           {/* <!-- Useful links section --> */}
-          <div>
+          {/* <div>
             <p className="mb-4">
               <a href="#!">Sitemap</a>
             </p>
             <p>
               <a href="#!">Help</a>
             </p>
-          </div>
+          </div> */}
           {/* <!-- Contact section --> */}
           <div>
             <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
@@ -152,9 +152,9 @@ const Footer = () => {
 
       {/* <!--Copyright section--> */}
       <div className="bg-black/5 p-6 text-center">
-        <span>© 2024 Copyright: </span>
-        <a className="font-semibold" href="https://tw-elements.com/">
-          Daar-Un-Noor
+        <span>© 2024 Copyright: Daar-Un-Noor </span>
+        <a className="font-semibold" href="https://swedwebuk.com/">
+          Developed By SWEDWEB UK
         </a>
       </div>
     </footer>
