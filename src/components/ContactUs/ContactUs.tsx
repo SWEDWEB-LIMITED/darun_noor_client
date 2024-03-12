@@ -32,9 +32,9 @@ export const ContactUs: React.FC = () => {
     <form
       ref={form}
       onSubmit={sendEmail}
-      className="max-w-md mx-auto mt-8 p-4 bg-white rounded-lg shadow-md"
+      className="max-w-md mx-auto mt-16 p-4 bg-white rounded-lg shadow-md"
     >
-      <h1 className="text-center font-bold text-2xl">Contact Us</h1>
+      <h1 className="text-center font-bold text-3xl">Contact Us</h1>
       <div className="mb-4">
         <label
           htmlFor="user_name"
