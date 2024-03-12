@@ -1,54 +1,12 @@
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
-
-// import required modules
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination } from "swiper/modules";
-
-import slider1 from "../../assets/Learning/learning-1.webp";
-import slider2 from "../../assets/Learning/learning-2.webp";
-import slider3 from "../../assets/Learning/learning-3.webp";
+import slider1 from "../../assets/Learning/learning-1.png";
+import slider2 from "../../assets/Learning/learning-2.png";
+import slider3 from "../../assets/Learning/learning-3.png";
+import Slider from "../../components/Shared/Slider/Slider";
 
 const LearningCenter = () => {
   return (
     <>
-      <Swiper
-        spaceBetween={30}
-        centeredSlides={true}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
-        pagination={{
-          clickable: true,
-        }}
-        navigation={true}
-        modules={[Autoplay, Pagination]}
-        className="mySwiper"
-      >
-        <SwiperSlide>
-          <img
-            className="object-center object-cover max-h-[600px] w-full"
-            src={slider1}
-            alt=""
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            className="object-center object-cover max-h-[600px] w-full "
-            src={slider2}
-            alt=""
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            className="object-center object-cover max-h-[600px] w-full "
-            src={slider3}
-            alt=""
-          />
-        </SwiperSlide>
-      </Swiper>
+      <Slider slider1={slider1} slider2={slider2} slider3={slider3} />
       <div className="text-white py-8">
         <div className="container mx-auto">
           <h1 className="text-3xl text-center font-bold mb-6">

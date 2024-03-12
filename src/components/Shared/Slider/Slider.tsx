@@ -6,11 +6,13 @@ import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 
-import slider1 from "../../assets/slider1.png";
-import slider2 from "../../assets/slider2.png";
-import slider3 from "../../assets/slider3.png";
+interface SliderProps {
+  slider1: string;
+  slider2: string;
+  slider3: string;
+}
 
-const Banner = () => {
+const Slider: React.FC<SliderProps> = ({ slider1, slider2, slider3 }) => {
   return (
     <>
       <Swiper
@@ -29,21 +31,21 @@ const Banner = () => {
       >
         <SwiperSlide>
           <img
-            className="w-full max-h-[600px] object-contain"
+            className="w-full max-h-[600px] object-cover"
             src={slider1}
             alt=""
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            className="w-full max-h-[600px] object-contain"
+            className="w-full max-h-[600px] object-cover"
             src={slider2}
             alt=""
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            className="w-full max-h-[600px] object-contain"
+            className="w-full max-h-[600px] object-cover"
             src={slider3}
             alt=""
           />
@@ -53,4 +55,4 @@ const Banner = () => {
   );
 };
 
-export default Banner;
+export default Slider;
