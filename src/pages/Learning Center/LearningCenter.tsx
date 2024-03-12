@@ -7,7 +7,7 @@ const LearningCenter = () => {
   return (
     <>
       <Slider slider1={slider1} slider2={slider2} slider3={slider3} />
-      <div className="text-white py-8">
+      <div className="text-white px-3 py-8">
         <div className="container mx-auto">
           <h1 className="text-3xl text-center font-bold mb-6">
             Learning Center
