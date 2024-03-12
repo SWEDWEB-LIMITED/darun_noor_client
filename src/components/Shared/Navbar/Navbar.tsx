@@ -92,7 +92,7 @@ const Navbar = () => {
                 <div className="hs-dropdown relative [--strategy:static] md:[--strategy:absolute] [--adaptive:none]"></div>
                 <div className="py-2">
                   <NavLink
-                    to="/a"
+                    to="/activity/kids"
                     className="flex items-center gap-x-3.5 px-3 rounded-md text-sm text-gray-800   focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700"
                   >
                     Kids 5-13 yrs
@@ -100,7 +100,7 @@ const Navbar = () => {
                 </div>
                 <div className="py-2">
                   <NavLink
-                    to="/b"
+                    to="/activity/girls"
                     className="flex items-center gap-x-3.5 px-3 rounded-md text-sm text-gray-800   focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700"
                   >
                     Muslim Girls 13+ yrs
@@ -108,7 +108,7 @@ const Navbar = () => {
                 </div>
                 <div className="py-2">
                   <NavLink
-                    to="/c"
+                    to="/activity/youth"
                     className="flex items-center gap-x-3.5 px-3 rounded-md text-sm text-gray-800   focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700"
                   >
                     Youth 13+ yrs
