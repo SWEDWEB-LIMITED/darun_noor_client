@@ -1,11 +1,18 @@
-import DaarUnNoor from "../../assets/daarunnoor-cover.png";
+import WorkStrands from "../Home/WorkStrands/WorkStrands";
+import bg from "../../assets/LogoTransparent.png";
+
 const AboutUs = () => {
   return (
-    <div className=" text-white py-2 ">
-      <img src={DaarUnNoor} alt="" />
-
-      <div className="container mx-auto text-justify mt-5 ">
-        <h2 className="text-4xl text-center font-extrabold mb-6">
+    <div className="py-2">
+      <div
+        style={{
+          backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(${bg})`,
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+        className="container mx-auto text-justify mt-10"
+      >
+        <h2 className="text-4xl text-center font-extrabold mb-5">
           Welcome to Daar Un Noor Sweden
         </h2>
         <p className="md:text-lg mb-8 px-2">
@@ -36,6 +43,7 @@ const AboutUs = () => {
           creating a positive impact, guided by the timeless values of Islam.
         </p>
       </div>
+      <WorkStrands />
     </div>
   );
 };
