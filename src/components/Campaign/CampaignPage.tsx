@@ -8,8 +8,8 @@ const CampaignPage: React.FC = () => {
   return (
     <div>
       <div>
-        <h2 className="text-center text-bold text-white md:text-3xl text-xl">
-          Our Campaign
+        <h2 className="text-center text-extrabold  md:text-3xl text-xl">
+          Upcoming Events
         </h2>
       </div>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">

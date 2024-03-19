@@ -3,7 +3,7 @@
 export default function LocationGoogleMap() {
   return (
     <>
-      <h1 className="text-4xl font-bold my-[3rem] text-center text-white">
+      <h1 className="text-4xl font-bold my-[3rem] text-center ">
         {/* Vår platsbelägenhet */}
         Our Location
       </h1>

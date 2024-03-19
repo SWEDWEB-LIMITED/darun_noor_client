@@ -3,7 +3,7 @@ import "./Navbar.css";
 import logo from "../../../assets/daar-un-noor-logo.jpg";
 const Navbar = () => {
   return (
-    <header className="relative flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full text-white pb-5 lg:pb-0">
+    <header className="relative flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full font-bold pb-5 lg:pb-0">
       <nav
         className="container w-full mx-auto px-4 md:flex md:items-center md:justify-between"
         aria-label="Global"
@@ -11,11 +11,11 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center flex-shrink-0">
             <img
-              className="w-[100px] flex-shrink-0 object-cover rounded-full"
+              className="w-[80px] flex-shrink-0 object-cover rounded-full"
               src={logo}
               alt="Daar-Un-Noor"
             />
-            <h3 className="font-bold text-2xl">Daar-Un-Noor</h3>
+            <h3 className="font-extrabold text-2xl ml-1">Daar-Un-Noor</h3>
           </Link>
           <div className="flex justify-end">
             <div className="block md:hidden mr-2">
@@ -117,6 +117,7 @@ const Navbar = () => {
               </div>
             </div>
             <NavLink to="/learning-center">Learning Center</NavLink>
+            <NavLink to="/online-library">Online Library</NavLink>
             <NavLink to="about-us">About Us</NavLink>
             {/* we can show users profile here for large devices */}
             <div className="hidden md:block">

@@ -2,9 +2,13 @@ import TrainingImage from "../../../assets/Traning and Development.webp";
 import CommonGoodImage from "../../../assets/Promoting Common Good.webp";
 import JusticeImage from "../../../assets/Seeking Fairness and Justice.webp";
 import CommunityImage from "../../../assets/Collective Community Endeavour.webp";
-
+import islamicBg from "../../../assets/islamic-new-year.png";
 export default function WorkStrands() {
   const loopData = [
+    {
+      img: TrainingImage,
+      heading: "Outreach and Awareness",
+    },
     {
       img: TrainingImage,
       heading: "Training and Development",
@@ -25,7 +29,10 @@ export default function WorkStrands() {
 
   return (
     <>
-      <div className="py-[5rem]  text-white">
+      <div
+        className="py-[5rem]  text-white "
+        style={{ background: `url(${islamicBg})` }}
+      >
         <p className="text-center text-3xl font-bold ">Our Work Strands</p>
 
         <div className="flex justify-center items-center gap-[2rem] flex-row flex-wrap p-[3rem]">
