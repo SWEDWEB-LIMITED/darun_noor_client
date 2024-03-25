@@ -13,8 +13,8 @@ export const ContactUs: React.FC = () => {
 
     if (form.current) {
       emailjs
-        .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", form.current, {
-          publicKey: "YOUR_PUBLIC_KEY",
+        .sendForm("service_m2l86ok", "template_zrb1qe2", form.current, {
+          publicKey: "nyR_ZXz1_cp7K4fKX",
         })
         .then(
           () => {

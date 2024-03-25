@@ -42,7 +42,14 @@ const AboutUs = () => {
           Together, let's embody the spirit of unity, service, and commitment to
           creating a positive impact, guided by the timeless values of Islam.
         </p>
+        <div className="mt-10 text-center">
+          <h2>Co-Operation Partner</h2>
+          <p>
+            <a href=""></a>
+          </p>
+        </div>
       </div>
+
       <WorkStrands />
     </div>
   );
