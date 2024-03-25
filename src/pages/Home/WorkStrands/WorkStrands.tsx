@@ -1,29 +1,30 @@
-import TrainingImage from "../../../assets/Traning and Development.webp";
-import CommonGoodImage from "../../../assets/Promoting Common Good.webp";
-import JusticeImage from "../../../assets/Seeking Fairness and Justice.webp";
-import CommunityImage from "../../../assets/Collective Community Endeavour.webp";
+import awareness from "../../../assets/WorkStrands/dawah.png";
+import unity from "../../../assets/WorkStrands/unity.jpg";
+import education from "../../../assets/WorkStrands/Educattion.png";
+import welfare from "../../../assets/WorkStrands/Social_Welfare.jpg";
+import justice from "../../../assets/WorkStrands/justice.png";
 import islamicBg from "../../../assets/islamic-new-year.png";
 export default function WorkStrands() {
   const loopData = [
     {
-      img: TrainingImage,
-      heading: "Outreach and Awareness",
+      img: awareness,
+      heading: "Awareness(Dawah)",
     },
     {
-      img: TrainingImage,
-      heading: "Training and Development",
+      img: unity,
+      heading: "Unity",
     },
     {
-      img: CommonGoodImage,
-      heading: "Promoting Common Good",
+      img: education,
+      heading: "Education & Nurturing",
     },
     {
-      img: JusticeImage,
-      heading: "Seeking Fairness and Justice",
+      img: welfare,
+      heading: "Social Welfare",
     },
     {
-      img: CommunityImage,
-      heading: "Collective Community Endeavour",
+      img: justice,
+      heading: "Fairness & Justice",
     },
   ];
 
@@ -41,7 +42,7 @@ export default function WorkStrands() {
               <img
                 src={data.img}
                 alt="img"
-                className="w-[15rem] h-[13rem] rounded-xl"
+                className="w-[15rem] h-[13rem] bg-white rounded-xl"
               />
               <p className="text-center mt-3">{data.heading}</p>
             </div>

@@ -117,8 +117,16 @@ const Navbar = () => {
               </div>
             </div>
             <NavLink to="/learning-center">Learning Center</NavLink>
-            <NavLink to="/online-library">Online Library</NavLink>
             <NavLink to="about-us">About Us</NavLink>
+            <div>
+              <a
+                href="https://www.icsbook.info/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Online Library
+              </a>
+            </div>
             {/* we can show users profile here for large devices */}
             <div className="hidden md:block">
               {/* if user exist here we can show their name and profile picture */}

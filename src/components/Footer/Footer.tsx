@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className=" text-center text-surface/75 bg-teal-800 text-white lg:text-left">
+    <footer className=" text-center text-surface/75  lg:text-left">
       <div className="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-white/10 lg:justify-between">
         <div className="me-12 hidden lg:block">
           <span>Get connected with us on social networks:</span>
@@ -10,7 +10,7 @@ const Footer = () => {
           <a
             href="https://www.facebook.com/daarunnoor"
             target="_blank"
-            className="me-6 [&>svg]:h-10 [&>svg]:w-10 bg-blue-500"
+            className="me-6 [&>svg]:h-10 [&>svg]:w-10 text-blue-500"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -23,7 +23,7 @@ const Footer = () => {
           <a
             href="https://www.youtube.com/daarunnoor"
             target="_blank"
-            className="me-6 [&>svg]:h-10 [&>svg]:w-10 bg-red-500"
+            className="me-6 [&>svg]:h-10 [&>svg]:w-10 text-red-500"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -83,7 +83,7 @@ const Footer = () => {
                   <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
                 </svg>
               </span>
-              info@example.com
+              info@daarunnoor.se
             </p>
             <p className="mb-4 flex items-center justify-center md:justify-start">
               <span className="me-3 [&>svg]:h-5 [&>svg]:w-5">
