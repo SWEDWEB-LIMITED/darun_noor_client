@@ -1,32 +1,32 @@
 import React from "react";
 import Campaign from "./Campaign";
-import campaign1 from "../../assets/slider1.png";
-import campaign3 from "../../assets/slider3.png";
-import campaign2 from "../../assets/camapaign2.png";
+import campaign1 from "../../assets/Upcoming/Upcoming1.jpg";
+import campaign2 from "../../assets/Upcoming/Upcoming2.jpg";
+import campaign3 from "../../assets/Upcoming/Upcoming3.jpg";
 
 const CampaignPage: React.FC = () => {
   return (
     <div>
       <div>
-        <h2 className="text-center text-extrabold  md:text-3xl text-xl">
+        <h2 className="text-center font-bold mt-10  md:text-5xl text-xl">
           Upcoming Events
         </h2>
       </div>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 mx-5">
         <Campaign
-          image={campaign1}
-          title="Summer Camp"
-          time="July 25, 2024 - July 28, 2024"
+          image={campaign3}
+          title="Kids & Parents Day"
+          time="25 June 2024"
         />
         <Campaign
           image={campaign2}
-          title="Kids & Parents Day"
-          time="9th March 2024"
+          title="Linkoping Summer Camp"
+          time="25-28 July 2024"
         />
         <Campaign
-          image={campaign3}
-          title="Islamic Waz"
-          time="24 December 2023"
+          image={campaign1}
+          title="Youth Conference 2024"
+          time=" 28 December 2024"
         />
       </div>
     </div>

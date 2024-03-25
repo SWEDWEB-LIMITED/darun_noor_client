@@ -6,7 +6,6 @@ import AboutUs from "../../pages/AboutUs/AboutUs";
 import Kids from "../../pages/Kids/Kids";
 import Youth from "../../pages/Youth/Youth";
 import Girls from "../../pages/Girls/Girls";
-import OnlineLibrary from "../../pages/OnlineLibrary/OnlineLibrary";
 
 const router = createBrowserRouter([
   {
@@ -36,10 +35,6 @@ const router = createBrowserRouter([
       {
         path: "activity/girls",
         element: <Girls></Girls>,
-      },
-      {
-        path: "online-library",
-        element: <OnlineLibrary></OnlineLibrary>,
       },
     ],
   },

@@ -1,7 +1,7 @@
 import React from "react";
 import Slider from "../../components/Shared/Slider/Slider";
 import youth1 from "../../assets/Youth/youth-1.png";
-import youth2 from "../../assets/Youth/youth-2.png";
+import youth2 from "../../assets/Upcoming/Upcoming1.jpg";
 import youth3 from "../../assets/Youth/youth-3.png";
 
 const Youth: React.FC = () => {

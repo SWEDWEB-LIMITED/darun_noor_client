@@ -14,13 +14,14 @@ interface SliderProps {
 
 const Slider: React.FC<SliderProps> = ({ slider1, slider2, slider3 }) => {
   return (
-    <>
+    <div>
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
+          pauseOnMouseEnter: true,
         }}
         pagination={{
           clickable: true,
@@ -31,27 +32,27 @@ const Slider: React.FC<SliderProps> = ({ slider1, slider2, slider3 }) => {
       >
         <SwiperSlide>
           <img
-            className="w-full max-h-[600px] object-cover"
+            className="w-full h-[30rem] object-contain"
             src={slider1}
             alt=""
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            className="w-full max-h-[600px] object-cover"
+            className="w-full h-[30rem] object-contain"
             src={slider2}
             alt=""
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            className="w-full max-h-[600px] object-cover"
+            className="w-full h-[30rem] object-contain"
             src={slider3}
             alt=""
           />
         </SwiperSlide>
       </Swiper>
-    </>
+    </div>
   );
 };
 
