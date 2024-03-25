@@ -4,6 +4,7 @@ import Swal from "sweetalert2";
 
 import swishLogo from "../../assets/swish_logo.jpg";
 import PlusGirotLogo from "../../assets/PlusGirotLogo.gif";
+import medgivandeblankett from "../../assets/MEDGIVANDE BLANKETT.pdf";
 
 export const ContactUs: React.FC = () => {
   const form = useRef<HTMLFormElement>(null);
@@ -32,14 +33,14 @@ export const ContactUs: React.FC = () => {
   };
 
   return (
-    <div className="grid md:grid-cols-2">
-      <div className="md:w-1/2 mx-auto">
+    <div className="grid md:grid-cols-2 my-5">
+      <div className="lg:w-3/5 mx-auto ">
         <form
           ref={form}
           onSubmit={sendEmail}
-          className=" mt-16 p-4 bg-white rounded-lg shadow-md"
+          className=" mt-16 p-4 md:h-[31rem] bg-white rounded-lg shadow-md"
         >
-          <h1 className="text-center font-bold text-3xl">Join Us</h1>
+          <h1 className="text-center font-bold mt-5 text-3xl">Join Us</h1>
           <div className="mb-4">
             <label
               htmlFor="user_name"
@@ -106,13 +107,15 @@ export const ContactUs: React.FC = () => {
           </button>
         </form>
       </div>
-      <div className="md:w-1/2 mx-auto">
-        <div className=" mt-16 p-4 bg-white rounded-lg shadow-md">
-          <h2 className="font-bold text-2xl text-center mb-6">Donate Us</h2>
-          <div className="flex justify-center  flex-col">
+      <div className="lg:w-3/5 mx-auto  ">
+        <div className=" mt-16 p-4 bg-white  md:h-[31rem] rounded-lg shadow-md ">
+          <h2 className="font-bold text-3xl text-center mt-5 mb-6">
+            Donate Us
+          </h2>
+          <div className="flex justify-center  flex-col gap-5">
             <div className="flex justify-center items-center rounded-lg p-4">
               <img className=" w-[7rem]" src={swishLogo} alt="Swish Logo" />
-              <p className="text-center  bg-[#ffaa36] p-1 rounded-xl font-bold ">
+              <p className="text-center  bg-[#ffaa36] px-2 py-1 rounded-xl font-bold ">
                 1233971272
               </p>
             </div>
@@ -122,9 +125,20 @@ export const ContactUs: React.FC = () => {
                 src={PlusGirotLogo}
                 alt="Plusgrio Logo"
               />
-              <p className="text-center bg-[#ffaa36] p-1 rounded-xl font-bold">
+              <p className="text-center bg-[#ffaa36] px-2 py-1 rounded-xl font-bold">
                 454543-0
               </p>
+            </div>
+            <div className="mt-10 flex items-center justify-center ">
+              <button>
+                <a
+                  href={medgivandeblankett}
+                  download="medgivande_blankett.pdf"
+                  className="bg-teal-800 text-white py-2 px-4 w-full font-semibold rounded-md hover:bg-teal-600 focus:outline-none focus:shadow-outline-teal active:bg-teal-800"
+                >
+                  Download PDF
+                </a>
+              </button>
             </div>
           </div>
         </div>

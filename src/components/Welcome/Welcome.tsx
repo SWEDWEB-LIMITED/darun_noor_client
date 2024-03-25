@@ -2,8 +2,8 @@ import React from "react";
 
 const Welcome: React.FC = () => {
   return (
-    <div className="  px-3  flex flex-col justify-center items-center mt-10 ">
-      <div className="text-justify max-w-4xl mx-auto">
+    <div className="  px-3  flex flex-col justify-center items-center my-10 ">
+      <div className="text-justify max-w-6xl mx-auto">
         <h1 className="lg:text-6xl text-center text-3xl font-extrabold mb-4">
           Welcome to Daar-Un-Noor Sveriges
         </h1>

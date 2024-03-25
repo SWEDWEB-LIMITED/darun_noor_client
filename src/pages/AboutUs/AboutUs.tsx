@@ -10,15 +10,15 @@ const AboutUs = () => {
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
         }}
-        className="container mx-auto text-justify mt-10"
+        className="container mx-auto text-justify mt-10 p-6 rounded-lg shadow-md"
       >
         <h2 className="text-4xl text-center font-extrabold mb-5">
-          Welcome to Daar Un Noor Sweden
+          Welcome to Daar Un Noor Sveriges
         </h2>
         <p className="md:text-lg mb-8 px-2">
-          Daar Un Noor Sweden is not just an organization; it's a commitment to
-          fostering positive change and inspiring a sense of purpose within the
-          Muslim community and beyond. Rooted in the Islamic faith, we
+          Daar Un Noor Sveriges is not just an organization; it's a commitment
+          to fostering positive change and inspiring a sense of purpose within
+          the Muslim community and beyond. Rooted in the Islamic faith, we
           passionately strive to encourage Muslims to be active contributors to
           society, creating a collective impact that benefits every member of
           humanity.
@@ -42,11 +42,46 @@ const AboutUs = () => {
           Together, let's embody the spirit of unity, service, and commitment to
           creating a positive impact, guided by the timeless values of Islam.
         </p>
-        <div className="mt-10 text-center">
-          <h2>Co-Operation Partner</h2>
-          <p>
-            <a href=""></a>
-          </p>
+      </div>
+      <div className="my-10 text-center container mx-auto rounded-lg shadow-md">
+        <h2 className="text-3xl font-bold mb-4">Cooperation Partners</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="border border-gray-300 rounded-lg shadow-md p-4">
+            <a
+              href="https://www.sensus.se"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block text-blue-600 hover:text-blue-800 transition duration-300 ease-in-out"
+            >
+              <h3 className="text-lg font-semibold mb-2">
+                Sensus studieförbund
+              </h3>
+            </a>
+          </div>
+          <div className="border border-gray-300 rounded-lg shadow-md p-4">
+            <a
+              href="https://www.myndighetensst.se"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block text-blue-600 hover:text-blue-800 transition duration-300 ease-in-out"
+            >
+              <h3 className="text-lg font-semibold mb-2">
+                Myndigheten för stöd till trossamfund
+              </h3>
+            </a>
+          </div>
+          <div className="border border-gray-300 rounded-lg shadow-md p-4">
+            <a
+              href="https://www.smf-islam.se"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block text-blue-600 hover:text-blue-800 transition duration-300 ease-in-out"
+            >
+              <h3 className="text-lg font-semibold mb-2">
+                SMF – Sverige Muslimska Förbund
+              </h3>
+            </a>
+          </div>
         </div>
       </div>
 
