@@ -19,7 +19,7 @@ const RecentCampaign = () => {
           Recent Events
         </h2>
       </div>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 mx-5">
+      <div className="container grid md:grid-cols-2 lg:grid-cols-3 gap-5 mx-auto">
         <Campaign
           image={campaign9}
           title="Youth Iftaar and Ramadan Reflection"

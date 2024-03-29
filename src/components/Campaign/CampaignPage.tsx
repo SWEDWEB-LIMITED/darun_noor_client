@@ -12,7 +12,7 @@ const CampaignPage: React.FC = () => {
           Upcoming Events
         </h2>
       </div>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 mx-5">
+      <div className="container mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-10">
         <Campaign
           image={campaign3}
           title="Kids & Parents Day"
