@@ -56,6 +56,16 @@ const LearningCenter = () => {
             info@daarunnoor.se
           </p>
         </div>
+        <div className="text-center">
+          <a
+            href="https://www.icsbook.info/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg shadow-md transition duration-300 ease-in-out"
+          >
+            Explore Our Online Library
+          </a>
+        </div>
 
         <div className="container mx-auto p-8 mt-8">
           <h2 className="text-2xl text-center font-bold mb-6">

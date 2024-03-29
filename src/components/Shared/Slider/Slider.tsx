@@ -32,21 +32,21 @@ const Slider: React.FC<SliderProps> = ({ slider1, slider2, slider3 }) => {
       >
         <SwiperSlide>
           <img
-            className="w-full h-[30rem] object-contain"
+            className="w-full lg:h-[30rem] lg:object-contain object-cover "
             src={slider1}
             alt=""
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            className="w-full h-[30rem] object-contain"
+            className="w-full lg:h-[30rem] lg:object-contain object-cover"
             src={slider2}
             alt=""
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            className="w-full h-[30rem] object-contain"
+            className="w-full lg:h-[30rem] lg:object-contain object-cover"
             src={slider3}
             alt=""
           />
