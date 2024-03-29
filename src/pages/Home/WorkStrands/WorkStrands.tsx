@@ -1,11 +1,20 @@
+import Swal from "sweetalert2";
 import awareness from "../../../assets/WorkStrands/dawah.png";
 import unity from "../../../assets/WorkStrands/unity.jpg";
 import education from "../../../assets/WorkStrands/Education.png";
 import welfare from "../../../assets/WorkStrands/Social_Welfare.jpg";
 import justice from "../../../assets/WorkStrands/justice.png";
 import islamicBg from "../../../assets/islamic-new-year.png";
-export default function WorkStrands() {
-  const loopData = [
+import React from "react";
+
+interface WorkStrandData {
+  img: string;
+  heading: string;
+  description: string;
+}
+
+const WorkStrands: React.FC = () => {
+  const loopData: WorkStrandData[] = [
     {
       img: awareness,
       heading: "Awareness(Dawah)",
@@ -38,17 +47,25 @@ export default function WorkStrands() {
     },
   ];
 
+  // Function to handle click event on div
+  const handleDivClick = (description: string) => {
+    Swal.fire({
+      text: description,
+      icon: "info",
+    });
+  };
+
   return (
     <>
       <div
-        className="py-[5rem]  text-white "
+        className="py-[5rem] text-white"
         style={{ background: `url(${islamicBg})` }}
       >
-        <p className="text-center text-3xl font-bold ">Our Work Strands</p>
+        <p className="text-center text-3xl font-bold">Our Work Strands</p>
 
         <div className="flex justify-center items-center gap-[2rem] flex-row flex-wrap p-[3rem]">
           {loopData.map((data, index) => (
-            <div key={index}>
+            <div key={index} onClick={() => handleDivClick(data.description)}>
               <img
                 src={data.img}
                 alt="img"
@@ -61,4 +78,6 @@ export default function WorkStrands() {
       </div>
     </>
   );
-}
+};
+
+export default WorkStrands;
