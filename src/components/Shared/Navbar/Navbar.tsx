@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <header className=" flex flex-wrap lg:justify-start lg:flex-nowrap z-50 w-full font-bold pb-5 lg:pb-0">
       <nav
-        className="container w-full mx-auto px-4 lg:flex lg:items-center lg:justify-between"
+        className=" w-full  px-4 lg:flex lg:items-center lg:justify-between"
         aria-label="Global"
       >
         <div className="flex items-center justify-between">
