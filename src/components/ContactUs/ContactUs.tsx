@@ -33,8 +33,8 @@ export const ContactUs: React.FC = () => {
   };
 
   return (
-    <div className="grid md:grid-cols-2 my-5">
-      <div className="lg:w-3/5 mx-auto ">
+    <div className=" container mx-auto grid md:grid-cols-2 my-5 gap-10">
+      <div className="container mx-auto ">
         <form
           ref={form}
           onSubmit={sendEmail}
@@ -107,7 +107,7 @@ export const ContactUs: React.FC = () => {
           </button>
         </form>
       </div>
-      <div className="lg:w-3/5 mx-auto  ">
+      <div className="container  mx-auto  ">
         <div className=" mt-16 p-4 bg-white  md:h-[31rem] rounded-lg shadow-md ">
           <h2 className="font-bold text-3xl text-center mt-5 mb-6">
             Donate Us

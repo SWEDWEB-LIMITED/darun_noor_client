@@ -1,4 +1,6 @@
-const Footer = () => {
+import React from "react";
+const Footer: React.FC = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <footer className=" text-center text-surface/75  lg:text-left">
       <div className="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-white/10 lg:justify-between">
@@ -107,7 +109,7 @@ const Footer = () => {
 
       {/* <!--Copyright section--> */}
       <div className="bg-black/5 p-6 text-center">
-        <span>© 2024 Copyright: Daar-Un-Noor </span>
+        <span>© {currentYear} Copyright: Daar-Un-Noor </span>
         <a className="font-semibold" href="https://swedwebltd.com/">
           Developed By SWEDWEB Limited
         </a>

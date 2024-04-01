@@ -8,11 +8,11 @@ const Welcome: React.FC = () => {
           Welcome to Daar-Un-Noor Sverige
         </h1>
         <p className="lg:text-lg  mb-6">
-          Daar Un Noor Sweden is a grassroots social organization set up to
+          Daar Un Noor Sverige is a grassroots social organization set up to
           encourage and facilitate Muslims to be active participants in society
           to benefit all members of humanity. It organizes members to seek the
           pleasure of Allah through worship of Him and service to humanity. Daar
-          Un Noor Sweden's aims to bring about spiritual, moral, and social
+          Un Noor Sverige's aims to bring about spiritual, moral, and social
           renewal through the values enshrined in the Islamic faith.
         </p>
       </div>
