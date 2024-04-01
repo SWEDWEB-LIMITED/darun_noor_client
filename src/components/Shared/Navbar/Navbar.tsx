@@ -122,11 +122,6 @@ const Navbar = () => {
             </div>
             <NavLink to="/learning-center">Learning Center</NavLink>
             <NavLink to="about-us">About Us</NavLink>
-
-            {/* we can show users profile here for large devices */}
-            <div className="hidden lg:block">
-              {/* if user exist here we can show their name and profile picture */}
-            </div>
           </div>
         </div>
       </nav>
