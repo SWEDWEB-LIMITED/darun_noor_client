@@ -136,7 +136,7 @@ export const ContactUs: React.FC = () => {
                   download="medgivande_blankett.pdf"
                   className="bg-teal-800 text-white py-2 px-4 w-full font-semibold rounded-md hover:bg-teal-600 focus:outline-none focus:shadow-outline-teal active:bg-teal-800"
                 >
-                  Download PDF
+                  Kyrkoavgift form | Download PDF
                 </a>
               </button>
             </div>
