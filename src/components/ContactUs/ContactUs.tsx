@@ -112,7 +112,7 @@ export const ContactUs: React.FC = () => {
           <h2 className="font-bold text-3xl text-center mt-5 mb-6">
             Donate Us
           </h2>
-          <div className="flex justify-center  flex-col gap-5">
+          <div className="flex justify-center  flex-col gap-20">
             <div className="flex justify-center items-center rounded-lg p-4">
               <img className=" w-[7rem]" src={swishLogo} alt="Swish Logo" />
               <p className="text-center  bg-[#ffaa36] px-2 py-1 rounded-xl font-bold ">

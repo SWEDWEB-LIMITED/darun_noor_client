@@ -1,0 +1,45 @@
+/* NotFound.css */
+
+.not-found-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f4f6; /* Light gray background */
+  }
+  
+  .not-found-content {
+    text-align: center;
+  }
+  
+  .not-found-title {
+    font-size: 6rem; /* Large title size */
+    color: #ff4500; /* Red color for emphasis */
+    margin-bottom: 0.5rem; /* Add some space below the title */
+  }
+  
+  .not-found-message {
+    font-size: 2rem; /* Message size */
+    color: #333; /* Dark text color */
+  }
+  
+  .not-found-description {
+    font-size: 1.25rem; /* Description size */
+    color: #555; /* Medium gray text color */
+    margin-bottom: 2rem; /* Add space below the description */
+  }
+  
+  .not-found-link {
+    display: inline-block;
+    padding: 0.75rem 1.5rem; /* Button padding */
+    background-color: #4caf50; /* Green button color */
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .not-found-link:hover {
+    background-color: #388e3c; /* Darker green on hover */
+  }
+  
