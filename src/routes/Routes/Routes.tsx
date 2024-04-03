@@ -6,11 +6,13 @@ import AboutUs from "../../pages/AboutUs/AboutUs";
 import Kids from "../../pages/Kids/Kids";
 import Youth from "../../pages/Youth/Youth";
 import Girls from "../../pages/Girls/Girls";
+import NotFound from "../../pages/NotFound/NotFound";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement: <NotFound></NotFound>,
     children: [
       {
         path: "/",

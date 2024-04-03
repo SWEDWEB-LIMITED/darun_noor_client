@@ -1,6 +1,6 @@
-nav a {
+.navActive {
   /* color: rgb(0, 0, 0) !important; */
-  font-weight: 800;
+  font-weight: 900;
 }
 
 nav a:hover {
@@ -9,18 +9,7 @@ nav a:hover {
 
 nav a.active {
   color: orange !important;
-  font-weight: 800;
+  font-weight: 900;
 }
 
-nav .navDropDown .dropdownBtn {
-  /* color: black; */
-  font-weight: 800;
-}
 
-nav .navDropDown .dropdownBtn:hover {
-  color: #ffa500;
-}
-
-nav .navDropDown .dropdownBtn:hover .bottomArrow {
-  color: #ffa500;
-}
