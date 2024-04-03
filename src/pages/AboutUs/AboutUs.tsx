@@ -13,10 +13,10 @@ const AboutUs = () => {
         className="container mx-auto text-justify mt-10 p-6 rounded-lg shadow-md"
       >
         <h2 className="text-4xl text-center font-extrabold mb-5">
-          Welcome to Daar Un Noor Sverige
+          Welcome to Daar Un Noor Sweden
         </h2>
         <p className="md:text-lg mb-8 px-2">
-          Daar Un Noor Sverige is not just an organization; it's a commitment to
+          Daar Un Noor Sweden is not just an organization; it's a commitment to
           fostering positive change and inspiring a sense of purpose within the
           Muslim community and beyond. Rooted in the Islamic faith, we
           passionately strive to encourage Muslims to be active contributors to

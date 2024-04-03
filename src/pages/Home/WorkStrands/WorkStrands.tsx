@@ -65,7 +65,11 @@ const WorkStrands: React.FC = () => {
 
         <div className="flex justify-center items-center gap-[2rem] flex-row flex-wrap p-[3rem]">
           {loopData.map((data, index) => (
-            <div key={index} onClick={() => handleDivClick(data.description)}>
+            <div
+              key={index}
+              className="cursor-pointer" // Add this class to change cursor to pointer
+              onClick={() => handleDivClick(data.description)}
+            >
               <img
                 src={data.img}
                 alt="img"
