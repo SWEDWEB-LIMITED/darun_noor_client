@@ -108,7 +108,10 @@ const Navbar: React.FC = () => {
     <header className="font-bold mb-10 shadow-md ">
       <div className="container mx-auto py-4 px-4 lg:flex lg:items-center lg:justify-between">
         <div className="flex items-center justify-between">
-          <Link to="/" className="flex items-center flex-shrink-0">
+          <Link
+            to="/"
+            className="flex items-center hover:text-orange-400 flex-shrink-0"
+          >
             <img
               className="w-[80px] md:w-[100px] flex-shrink-0 object-cover rounded-full"
               src={logo}
